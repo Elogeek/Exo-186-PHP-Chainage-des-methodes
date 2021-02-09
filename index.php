@@ -12,3 +12,8 @@
  *
  * 5. Utilisez le chaînage des méthodes pour mettre à jour le nom et le prix en une seule ligne.
  */
+
+require './classes/Voo.php';
+
+$test = new VODService();
+$test->setName("Coucou")->setPrice("50,99");
